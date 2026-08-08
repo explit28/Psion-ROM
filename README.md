@@ -204,6 +204,7 @@ Utilities:
 | Psion Revo      | Release 5      | 1.06 (390)  | English             | [Revo_v1.06(390)_eng.bin](Revo/Revo_v1.06(390)_eng/Revo_v1.06(390)_eng.bin)    | `9f0cb14967d29cfa52d11892f36db8bf` |
 | Psion Revo      | Release 5      | 1.06 (391)  | German              | [Revo_v1.06(391)_ger.bin](Revo/Revo_v1.06(391)_ger/Revo_v1.06(391)_ger.bin)    | `122c7fb21cd47684e1eb79fcaafda156` |
 | Psion Revo      | Release 5      | 1.06 (392)  | French              | [Revo_v1.06(392)_fre.bin](Revo/Revo_v1.06(392)_fre/Revo_v1.06(392)_fre.bin)    | `a0050a38c7b226de2c0907c0ef3b7719` |
+| Psion Revo      | Release 5      | 1.06 (401)  | Dutch               | [Revo_v1.06(401)_nl.bin](Revo/Revo_v1.06(401)_nl/Revo_v1.06(401)_nl.bin)       | `b4da7c0f6b2e2f24ab8f83fbd9d44523` |
 | Psion Revo 618C | Release 5      | 1.08 (14)   | Chinese Traditional | [Revo_v1.08(14)_chitr.bin](Revo/Revo_v1.08(14)_chitr/Revo_v1.08(14)_chitr.bin) | `f4cc461b3e766f98a0637d0bd68925ef` |
 
 > [!NOTE]
