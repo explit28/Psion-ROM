@@ -18,11 +18,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Package the ROMs
+    - name: Package the ROMs for each model
       run: Scripts/build.sh
 
-    - name: Archive the binary
+    - name: Archive generated ROM zips
       uses: actions/upload-artifact@v4
       with:
-        path: build/mame-roms.zip
+        path: build/zip/*.zip
         if-no-files-found: error
