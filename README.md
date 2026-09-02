@@ -19,6 +19,7 @@ ROMs:
 - [Psion Series 5mx / Ericsson MC218](#psion-series-5mx--ericsson-mc218)
 - [Psion Series 5mx PRO](#psion-series-5mx-pro)
 - [Psion Revo / Diamond Mako](#psion-revo--diamond-mako)
+- [Psion Conan (unreleased)](#psion-conan-unreleased)
 - [Psion Series 7](#psion-series-7)
 - [Psion netBook](#psion-netbook)
 - [Psion netPad](#psion-netpad)
@@ -212,6 +213,25 @@ Utilities:
 > - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale, which is set by the EEPROM flag.
 >
 > - Psion Revo 618 is a Chinese version of the Revo. Revo 618C contains Chinese Traditional firmware. Revo 618S - Chinese Simplified.
+
+
+## Psion Conan (unreleased)
+
+| Device                     | EPOC32 Version | ROM Version               | Language | Filename                                                                    | MD5 Checksum                       |
+| -------------------------- | -------------- | ------------------------- | -------- | --------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Conan ("Revo 2 Pro") | Release 6      | 0.01 (22) - Eng. build    | English  | [s2_2201.engbuild.IMG](Conan/Conan_v0.01(22)_engbuild/s2_2201.engbuild.IMG) | `ba090cdb6871a487882219d6c3d97528` |
+
+| Additional files                 | Date       | Filename                                                                    | MD5 Checksum                       |
+| -------------------------------- | ---------- | --------------------------------------------------------------------------- | ---------------------------------- |
+| Macronix mask-ROM checksum sheet | 1 May 2001 | [S2_2201.engbuild.txt](Conan/Conan_v0.01(22)_engbuild/S2_2201.engbuild.txt) | `7b645418f8614f9deb2196a1b126ac91` |
+
+> [!NOTE]
+>
+> - The Conan ("Revo Bluetooth" / "Revo 2 Pro") was Psion's unreleased Bluetooth successor to the Revo, cancelled in 2001 when Psion withdrew from consumer PDAs. Unlike the other ROMs in this repository, this engineering build was never distributed by Psion; it is preserved from a private archive.
+>
+> - The image is EPOC Release 6 (Unicode) carrying the classic Series 5/Revo look and feel, on the Windermere/ARM710T hardware family (Revo/5mx class), with Symbian's complete Bluetooth stack aboard, configured for a UART-attached module. EKA1 ROM header version 0.01(22) (= "s2_2201": build 22 of v0.01), built 30 April 2001; 475 files; ECust machine name string "REVO-PRO"; padded with `FF` to 12 MB.
+>
+> - The accompanying `S2_2201.engbuild.txt` is the Macronix (MXIC) mask-ROM checksum approval sheet (1 May 2001) generated from this exact image for production sign-off - the build was being readied for mask-ROM manufacture when the project was cancelled. The image verifies bit-exact against every checksum on the sheet (total byte sum `49426FC2h`, low/high byte-lane sums `1D05916Eh` / `2C3CDE54h`).
 
 
 ## Psion Series 7
