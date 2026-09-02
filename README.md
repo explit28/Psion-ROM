@@ -219,7 +219,7 @@ Utilities:
 
 | Device                     | EPOC32 Version | ROM Version               | Language | Filename                                                                    | MD5 Checksum                       |
 | -------------------------- | -------------- | ------------------------- | -------- | --------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Conan ("Revo 2 Pro") | Release 6      | 0.01 (22) - Eng. build    | English  | [s2_2201.engbuild.IMG](Conan/Conan_v0.01(22)_engbuild/s2_2201.engbuild.IMG) | `ba090cdb6871a487882219d6c3d97528` |
+| Psion Conan ("Revo 2 Pro") | Release 6      | 0.01 (22) - Eng. build    | English  | [s2_2201.engbuild.img](Conan/Conan_v0.01(22)_engbuild/s2_2201.engbuild.img) | `ba090cdb6871a487882219d6c3d97528` |
 
 | Additional files                 | Date       | Filename                                                                    | MD5 Checksum                       |
 | -------------------------------- | ---------- | --------------------------------------------------------------------------- | ---------------------------------- |

@@ -120,6 +120,10 @@ cp "$ROOT_DIRECTORY/Revo/Revo_v1.06(401)_nl/Revo_v1.06(401)_nl.bin" revo/revo_nl
 cp "$ROOT_DIRECTORY/Revo/Revo_v1.08(14)_chitr/Revo_v1.08(14)_chitr.bin" revo/psion618c_v14.rom
 zip -rj "$BUILD_DIRECTORY/zip/revo.zip" revo/
 
+# mkdir conan ## not in 0.289 release
+# cp "$ROOT_DIRECTORY/Conan/Conan_v0.01(22)_engbuild/s2_2201.engbuild.img" conan
+# zip -rj "$BUILD_DIRECTORY/zip/conan.zip" conan/
+
 mkdir psion7
 cp "$ROOT_DIRECTORY/Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin" psion7/s7_105_254_build_754.rom
 cp "$ROOT_DIRECTORY/Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin" psion7/s7_105_254_build_756.rom
